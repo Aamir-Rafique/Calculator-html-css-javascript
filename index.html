@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Calculator</title>
     <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="img/calculator.png" />
+
 </head>
 
 <body>
@@ -16,8 +18,8 @@
 
         <div class="bottom">
             <div id="row">
-                <button class="function" onclick="clearText()">AC</button>
-                <button class="function" onclick="delLastChar()">DEL</button>
+                <button class="function" onclick="clearText()" id="function">AC</button>
+                <button class="function" onclick="delLastChar()" id="function">DEL</button>
                 <button class="value" onclick="appendValue('.')">.</button>
                 <button class="operator" onclick="appendValue('/')">/</button>
             </div>
