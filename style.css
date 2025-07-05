@@ -1,12 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI' ;
+    font-family: 'Segoe UI';
     box-sizing: border-box;
 }
 
-body{
-    width: 100%;
+body {
     height: 100vh;
     background-color: aquamarine;
     display: flex;
@@ -14,59 +13,72 @@ body{
     align-items: center;
 }
 
-.container{
-    height: 60vh;
-    width: 22vw ;
-    background-color:rgb(14, 169, 184);
+.container {
+    height: auto;
+    width: 23%;
+    background-color: rgb(14, 169, 184);
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 15px 2px;
+    padding: 1.5vmax;
     border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.332);
+    gap: 1vmax;
 }
 
-.top input{
-    height: 90%;
-    width: 90%;
+.top input {
+    height: 3.5vmax;
+    width: 95%;
     text-align: right;
-    font-size: 30px;
+    font-size: 2.2vmax;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    box-shadow: none;    
-    /* border: none; */
+    box-shadow: none;
 }
 
-button{
-    height: 40px;
-    width: 40px;
+button {
+    font-size: 1.5vmax;
+    padding: 0.5vmax 1vmax;
     border-radius: 50px;
     border: 1px solid black;
     font-weight: 600;
 }
 
-.top{
-    height: 20%;
+.top {
+    height: auto;
     width: 95%;
-    /* background-color: aqua; */
     display: flex;
     justify-content: center;
-    box-shadow: none;
 }
 
 
-.bottom{
-    height: 80%;
-    width: 95%;
-    /* background-color: aqua; */
-    text-align: center;
+.bottom {
+    height: auto;
+    width: 85%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* text-align: center; */
+    gap: 0.9vmax;
+}
+
+.bottom #top-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 
-#row{
+.bottom #bottom-rows {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1vmax;
+}
+
+    #row {
     height: 20%;
     width: 90%;
     /* background-color: yellow; */
@@ -74,14 +86,14 @@ button{
     justify-content: space-evenly;
 }
 
-.operator{
+.operator {
     background-color: orange;
 }
 
-.value{
+.value {
     background-color: rgb(246, 240, 240);
 }
 
-#function{
+#function {
     background-color: rgb(232, 90, 7);
 }
