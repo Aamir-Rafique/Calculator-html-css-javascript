@@ -9,6 +9,7 @@ body {
     height: 100vh;
     background-color: aquamarine;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -78,7 +79,7 @@ button {
     gap: 1vmax;
 }
 
-    #row {
+#row {
     height: 20%;
     width: 90%;
     /* background-color: yellow; */
@@ -96,4 +97,23 @@ button {
 
 #function {
     background-color: rgb(232, 90, 7);
+}
+
+
+
+footer {
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    text-align: center;
+    color: #4b5563;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #2563eb;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    text-decoration: underline;
 }
