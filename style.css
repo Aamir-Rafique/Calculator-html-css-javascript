@@ -14,7 +14,23 @@ body {
     align-items: center;
 }
 
+nav {
+    height: 5vmax;
+    width: 100%;
+    background: linear-gradient(to right, #344dba, #764ba2);
+    padding-top: 12px;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    text-align: center;
+}
+
+nav #logo-img {
+    width: 6vmax;
+}
+
 .container {
+    margin-top: 3vmax;
     height: auto;
     width: 23%;
     background-color: rgb(14, 169, 184);
@@ -31,11 +47,18 @@ body {
 .top input {
     height: 3.5vmax;
     width: 95%;
+    padding: 1vmax ;
     text-align: right;
     font-size: 2.2vmax;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     box-shadow: none;
+    outline: none;
+}
+
+input:focus {
+    border: 3px solid #115790;
+    box-shadow: 0 2px 2px 2px #2196f3;
 }
 
 button {
