@@ -1,11 +1,18 @@
 @media (max-width: 721px) {
- 
 
-    .container {
-        width: 55%;
+    body {
+        height: 70vh;
     }
 
-   footer p{
+    nav {
+        height: 2.8rem;
+    }
+
+    .container {
+        width: 50%;
+    }
+
+    footer p {
         font-size: 1.5vmax;
     }
 }

@@ -4,9 +4,10 @@ let isdotclicked = false;
 const error_1 = "Error";
 
 function appendValue(value) {
+ 
     if (displaytext.value !== error_1) {
         if (displaytext.value === "0") {
-            displaytext.value = "";
+            displaytext.value = ""; 
         }
         if (value === ".") {
             if (isdotclicked === false) {
